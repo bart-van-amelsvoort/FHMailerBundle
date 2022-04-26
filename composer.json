@@ -54,11 +54,6 @@
             "FH\\Bundle\\MailerBundle\\Tests\\": "tests/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.x-dev"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/simple-phpunit --colors=always --testdox",
         "phpstan": "composer install --working-dir=.tools/phpstan && .tools/phpstan/vendor/bin/phpstan --memory-limit=4G analyse -c phpstan.neon",
